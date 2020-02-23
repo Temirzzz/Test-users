@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+}
+
+a.main-link:active,
+a.main-link:hover,
+a.main-link {
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #666;
+	margin: 30px 100px;
+}
+
+/*----------- inputs ---------------*/
+
+.wrapper {
+	margin-top: 100px;
+	text-align: center;
+}
+
+label,
+textarea {
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
+
+textarea, input, select {
+	padding: 10px;
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #999;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.btn {
+	margin: 10px auto;
+	display: block;
+	padding: 5px 15px;
+	border-radius: 5px;
+	background: #87CEFA;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.wrapper-second {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.btn__second {
+	margin: 20px auto;
+	display: block;
+	padding: 5px 15px;
+	border-radius: 5px;
+	background: #87CEFA;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+/*-------------- chips ----------------*/
+
+.chieps-field {
+	position: absolute;	
+	min-width: 110px;
+}
+
+.chips {
+	padding: 5px 10px;
+	background: #87CEFA;
+	z-index: 9999;
+	position: relative;
+	margin: 10px 20px;
+	font-size: 18px;
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #999;
+}
+
+/*---------- output page ------------*/
+
+.out__p {	
+	padding: 10px 20px;
+	border-radius: 10px;
+	width: 70%;
+	margin: 10px 0 10px 15%;
+	font-size: 20px;
+}
+
+.out__p:nth-child(even) {
+	background: #B0E0E6;
+}
+.out__p:nth-child(odd) {
+	background: rgb(202, 228, 236);
+}
